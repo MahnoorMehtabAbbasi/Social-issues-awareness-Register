@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Registration Page</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/registerc.css">
+
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 mx-auto register-form">
+      <div class="logo">
+        <img src="images\Logo.png" alt="Logo">
+        <h1>Socio-<span style="color: #EC407A;">Connect</span></h1>
+      </div>
+      <form>
+        <div class="form-group">
+          <label for="name">Enter your name</label>
+          <input type="text" class="form-control" id="name" name="name" placeholder="Enter here" required>
+        </div>
+        <div class="form-group">
+          <label for="phone">Enter your phone number</label>
+          <input type="tel" class="form-control" id="phone" name="phone" placeholder="XXXX XXXXXXX" required>
+        </div>
+        <button type="submit" class="btn btn-register" id="next-btn">Next</button>
+      </form>
+      <div class="login-link">
+        Already have an account? <a href="#" style="color:#EC407A ;">Login</a><br> <br>
+        <span>OR</span><br>
+        <button class="btn-google">
+          <img src="images\google-logo.png" alt="Google Logo" class="google-logo" >
+          Sign up with Google
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
